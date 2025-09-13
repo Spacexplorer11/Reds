@@ -9,8 +9,8 @@
 		<button id="4-cards" class="bg-blue py-14 rounded-2xl text-2xl md:text-3xl my-2 hover:scale-[1.03] hover:-translate-y-2 hover:shadow-2xl min-w-[80%]">4 cards</button>
 			<p class="text-xl md:text-2xl">You will be able to look at the first <b>2</b> cards</p>
 		</div>
-		<div class="@container/4-cards flex flex-col mx-auto items-center">
-			<button id="4-cards" class="bg-green py-14 rounded-2xl text-2xl md:text-3xl my-2 hover:scale-[1.03] hover:-translate-y-2 hover:shadow-2xl min-w-[80%]">6 cards</button>
+		<div class="@container/6-cards flex flex-col mx-auto items-center">
+			<button id="6-cards" class="bg-green py-14 rounded-2xl text-2xl md:text-3xl my-2 hover:scale-[1.03] hover:-translate-y-2 hover:shadow-2xl min-w-[80%]">6 cards</button>
 			<p class="text-xl md:text-2xl">You will be able to look at the first <b>3</b> cards</p>
 		</div>
 	</div>
