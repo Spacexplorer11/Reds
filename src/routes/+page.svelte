@@ -6,6 +6,10 @@
 <h2 class="text-2xl md:text-3xl my-4">Please select a button below</h2>
 	<div class="@container/buttons space-y-6 w-full">
 		<div class="@container/4-cards flex flex-col mx-auto items-center">
+			<button id="tutorial" class="bg-salmon py-14 rounded-2xl text-2xl md:text-3xl my-2 hover:scale-[1.03] hover:-translate-y-2 hover:shadow-2xl min-w-[80%]">Tutorial</button>
+			<p class="text-xl md:text-2xl">Don't know how to play?</p>
+		</div>
+		<div class="@container/4-cards flex flex-col mx-auto items-center">
 		<button id="4-cards" class="bg-blue py-14 rounded-2xl text-2xl md:text-3xl my-2 hover:scale-[1.03] hover:-translate-y-2 hover:shadow-2xl min-w-[80%]">4 cards</button>
 			<p class="text-xl md:text-2xl">You will be able to look at the first <b>2</b> cards</p>
 		</div>
