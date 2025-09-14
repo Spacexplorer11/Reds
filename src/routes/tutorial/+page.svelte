@@ -18,8 +18,8 @@
 			<ArrowBigLeft size="30" />
 		</button>
 		<div class="@container/step flex w-3/5 flex-col items-center rounded-2xl bg-salmon p-10">
-			<h3 class="my-2 text-2xl md:text-3xl">{stepJSON.title}</h3>
-			<p class="my-4 text-xl md:text-2xl">
+			<h3 class="my-2 text-2xl whitespace-pre-wrap md:text-3xl">{stepJSON.title}</h3>
+			<p class="my-4 text-xl whitespace-pre-wrap md:text-2xl">
 				{stepJSON.content}
 			</p>
 			{#if stepJSON.image && stepJSON.image_description}
