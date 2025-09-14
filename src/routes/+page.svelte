@@ -9,7 +9,7 @@
 			<button
 				id="tutorial"
 				class="my-2 min-w-[80%] rounded-2xl bg-salmon py-14 text-2xl hover:-translate-y-2 hover:scale-[1.03] hover:shadow-2xl md:text-3xl"
-				>Tutorial</button
+				onclick={(window.location.href = '/tutorial')}>Tutorial</button
 			>
 			<p class="text-xl md:text-2xl">Don't know how to play?</p>
 		</div>
