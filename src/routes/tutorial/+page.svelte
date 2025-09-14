@@ -1,0 +1,44 @@
+<script>
+	import { ArrowBigLeft, ArrowBigRight } from '@lucide/svelte';
+	import steps from '$lib/tutorial';
+	let step = $state(1);
+	let stepJSON = $derived(steps[step - 1]);
+</script>
+
+<div class="@container mx-auto flex flex-col p-4 text-center text-black">
+	<h1 class="text-4xl md:text-5xl">Tutorial</h1>
+	<h2 class="my-4 text-2xl md:text-3xl">Learn how to play Reds!</h2>
+	<main class="@container/main flex flex-row justify-center gap-10">
+		<button
+			class="max-width-fit rounded-2xl bg-blue p-5"
+			onclick={() => {
+				if (step > 1) step -= 1;
+			}}
+		>
+			<ArrowBigLeft size="30" />
+		</button>
+		<div class="@container/step flex w-3/5 flex-col items-center rounded-2xl bg-salmon p-10">
+			<h3 class="text-2xl md:text-3xl">Step {step}</h3>
+			<h4 class="my-2 text-xl md:text-2xl">{stepJSON.title}</h4>
+			<p class="my-4 text-xl md:text-2xl">
+				{stepJSON.content}
+			</p>
+			{#if stepJSON.image && stepJSON.image_description}
+				<img
+					src="/tutorial-images/{stepJSON.image}"
+					alt={stepJSON.image_description}
+					title={stepJSON.image_description}
+					class="max-h-96 rounded-2xl object-contain"
+				/>
+			{/if}
+		</div>
+		<button
+			class="max-width-fit rounded-2xl bg-blue p-5"
+			onclick={() => {
+				if (step < steps.length) step += 1;
+			}}
+		>
+			<ArrowBigRight size="30" />
+		</button>
+	</main>
+</div>
