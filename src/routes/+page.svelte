@@ -9,7 +9,7 @@
 			<button
 				id="4-cards"
 				class="my-2 min-w-[80%] rounded-2xl bg-blue py-14 text-2xl hover:-translate-y-2 hover:scale-[1.03] hover:shadow-2xl md:text-3xl"
-				>4 cards</button
+				onclick={(window.location.href = '/4-card')}>4 cards</button
 			>
 			<p class="text-xl md:text-2xl">You will be able to look at the first <b>2</b> cards</p>
 		</div>
