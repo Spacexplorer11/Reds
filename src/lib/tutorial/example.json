@@ -1,0 +1,6 @@
+{
+	"title": "What will your step be called",
+	"content": "The main instructions/information for your step. HTML is not supported here. Only plain text.",
+	"image": "The path to your image, from the website. e.g example.png which will be served from https://reds-game.pages.dev/tutorial-images/example.png",
+	"image_description": "A description of the image"
+}
