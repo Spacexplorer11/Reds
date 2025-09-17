@@ -18,7 +18,7 @@
 			<button
 				id="4-cards"
 				class="my-2 min-w-[80%] rounded-2xl bg-blue py-14 text-2xl hover:-translate-y-2 hover:scale-[1.03] hover:shadow-2xl md:text-3xl"
-				>4 cards</button
+				onclick={goto('/4-card')}>4 cards</button
 			>
 			<p class="text-xl md:text-2xl">You will be able to look at the first <b>2</b> cards</p>
 		</div>
@@ -26,7 +26,7 @@
 			<button
 				id="6-cards"
 				class="my-2 min-w-[80%] rounded-2xl bg-green py-14 text-2xl hover:-translate-y-2 hover:scale-[1.03] hover:shadow-2xl md:text-3xl"
-				>6 cards</button
+				onclick={goto('/6-card')}>6 cards</button
 			>
 			<p class="text-xl md:text-2xl">You will be able to look at the first <b>3</b> cards</p>
 		</div>

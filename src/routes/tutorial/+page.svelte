@@ -11,10 +11,11 @@
 	<h2 class="my-4 text-2xl md:text-3xl">Learn how to play Reds!</h2>
 	<main class="@container/main flex flex-row justify-center gap-10">
 		<button
-			class="max-width-fit rounded-2xl bg-blue p-5"
+			class="max-w-fit rounded-2xl bg-blue p-5 disabled:cursor-not-allowed disabled:bg-gray-700"
 			onclick={() => {
 				if (step > 1) step -= 1;
 			}}
+			disabled={step <= 1}
 		>
 			<ArrowBigLeft size="30" />
 		</button>
@@ -23,20 +24,13 @@
 			<p class="my-4 text-xl whitespace-pre-wrap md:text-2xl">
 				{stepJSON.content}
 			</p>
-			{#if stepJSON.image && stepJSON.image_description}
-				<img
-					src="/tutorial-images/{stepJSON.image}"
-					alt={stepJSON.image_description}
-					title={stepJSON.image_description}
-					class="max-h-96 rounded-2xl object-contain"
-				/>
-			{/if}
 		</div>
 		<button
-			class="max-width-fit rounded-2xl bg-blue p-5"
+			class="max-width-fit rounded-2xl bg-blue p-5 disabled:cursor-not-allowed disabled:bg-gray-700"
 			onclick={() => {
 				if (step < steps.length) step += 1;
 			}}
+			disabled={step >= steps.length}
 		>
 			<ArrowBigRight size="30" />
 		</button>
