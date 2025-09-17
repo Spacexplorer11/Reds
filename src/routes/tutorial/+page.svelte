@@ -24,14 +24,6 @@
 			<p class="my-4 text-xl whitespace-pre-wrap md:text-2xl">
 				{stepJSON.content}
 			</p>
-			{#if stepJSON.image && stepJSON.image_description}
-				<img
-					src="/tutorial-images/{stepJSON.image}"
-					alt={stepJSON.image_description}
-					title={stepJSON.image_description}
-					class="max-h-96 rounded-2xl object-contain"
-				/>
-			{/if}
 		</div>
 		<button
 			class="max-width-fit rounded-2xl bg-blue p-5 disabled:cursor-not-allowed disabled:bg-gray-700"
