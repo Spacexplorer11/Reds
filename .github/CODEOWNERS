@@ -1,1 +1,4 @@
-src/routes/+page.svelte @spacexplorer11
+src/routes/* @spacexplorer11
+static/** @spacexplorer11
+
+src/lib/tutorial/* @ferboinkles
