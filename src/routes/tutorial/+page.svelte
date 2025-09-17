@@ -11,7 +11,7 @@
 	<h2 class="my-4 text-2xl md:text-3xl">Learn how to play Reds!</h2>
 	<main class="@container/main flex flex-row justify-center gap-10">
 		<button
-			class="max-width-fit rounded-2xl bg-blue p-5 disabled:cursor-not-allowed disabled:bg-gray-700"
+			class="max-w-fit rounded-2xl bg-blue p-5 disabled:cursor-not-allowed disabled:bg-gray-700"
 			onclick={() => {
 				if (step > 1) step -= 1;
 			}}
