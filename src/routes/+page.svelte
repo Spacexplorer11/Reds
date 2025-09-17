@@ -8,6 +8,14 @@
 	<div class="@container/buttons w-full space-y-6">
 		<div class="@container/4-cards mx-auto flex flex-col items-center">
 			<button
+				id="tutorial"
+				class="my-2 min-w-[80%] rounded-2xl bg-salmon py-14 text-2xl hover:-translate-y-2 hover:scale-[1.03] hover:shadow-2xl md:text-3xl"
+				onclick={goto('/tutorial')}>Tutorial</button
+			>
+			<p class="text-xl md:text-2xl">Don't know how to play?</p>
+		</div>
+		<div class="@container/4-cards mx-auto flex flex-col items-center">
+			<button
 				id="4-cards"
 				class="my-2 min-w-[80%] rounded-2xl bg-blue py-14 text-2xl hover:-translate-y-2 hover:scale-[1.03] hover:shadow-2xl md:text-3xl"
 				onclick={goto('/4-card')}>4 cards</button
