@@ -1,6 +1,5 @@
 src/routes/* @spacexplorer11
 static/images/* @spacexplorer11
 
-src/lib/tutorial/* @ferboinkles
 static/cards/* @ferboinkles
 src/lib/tutorial/* @ferboinkles
