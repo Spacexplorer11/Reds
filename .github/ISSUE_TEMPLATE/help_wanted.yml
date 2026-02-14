@@ -1,6 +1,6 @@
 name: Help wanted
 description: Request help with a problem or question
-title: '[HELP] '
+title: "[HELP] "
 labels: [help wanted]
 body:
   - type: markdown

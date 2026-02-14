@@ -1,11 +1,11 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 
 html,
 body {
 	background-color: #e71d36;
-	font-family: 'Young Serif', serif;
+	font-family: "Young Serif", serif;
 	font-weight: 400;
 	font-style: normal;
 }
