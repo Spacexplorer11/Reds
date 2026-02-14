@@ -1,39 +1,17 @@
-<!-- # sv
+# Reds
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Reds is a card game you can play with friends in real life. It is a game of memory, strategy and wits!  
+Our [website](https://reds-game.pages.dev) can help you learn how to play!
+I learnt it from [@ferboinkles](https://github.com/ferboinkles) and, using my technical skills, wanted to share it with you.  
+Together, we want to teach you Reds.
 
-## Creating a project
+### If you want to run it locally:
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
--->
+1. Clone the repository
+2. Do `npm install` or `bun install` (recommended) to install all dependencies
+3. Run `npm run dev` or `bun dev` to start the development server
+4. Open `http://localhost:5173` in your browser
+5. Enjoy!
+6. To build for production, run `npm run build` or `bun run build` and then `npm start` or `bun run start`
+7. Your production server will be running on `http://localhost:4173`
+8. If you wanna edit the code, read the svelte docs [here](https://svelte.dev/docs)
