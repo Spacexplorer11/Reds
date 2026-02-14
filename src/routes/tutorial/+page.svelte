@@ -1,6 +1,6 @@
 <script>
-	import { ArrowBigLeft, ArrowBigRight, House } from '@lucide/svelte';
-	import steps from '$lib/tutorial';
+	import { ArrowBigLeft, ArrowBigRight, House } from "@lucide/svelte";
+	import steps from "$lib/tutorial";
 	let step = $state(1);
 	let stepJSON = $derived(steps[step - 1]);
 </script>

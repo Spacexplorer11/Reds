@@ -9,10 +9,10 @@
 <style>
 	#game-background {
 		@media (prefers-color-scheme: dark) {
-			background-image: url('/images/dark-game-bg.webp');
+			background-image: url("/images/dark-game-bg.webp");
 		}
 		@media (prefers-color-scheme: light) {
-			background-image: url('/images/light-game-bg.webp');
+			background-image: url("/images/light-game-bg.webp");
 		}
 		background-size: cover;
 		min-height: 100vh;
