@@ -12,6 +12,6 @@ Together, we want to teach you Reds.
 3. Run `npm run dev` or `bun dev` to start the development server
 4. Open `http://localhost:5173` in your browser
 5. Enjoy!
-6. To build for production, run `npm run build` or `bun build` and then `npm start` or `bun start`
+6. To build for production, run `npm run build` or `bun run build` and then `npm start` or `bun run start`
 7. Your production server will be running on `http://localhost:4173`
 8. If you wanna edit the code, read the svelte docs [here](https://svelte.dev/docs)
