@@ -1,12 +1,18 @@
 <script>
 	import { ArrowBigLeft, ArrowBigRight, House } from "@lucide/svelte";
 	import steps from "$lib/tutorial";
+	import { goto } from "$app/navigation";
 	let step = $state(1);
 	let stepJSON = $derived(steps[step - 1]);
 </script>
 
 <div class="@container mx-auto flex flex-col p-4 text-center text-black">
-	<a href="/" class="-top-2.5 left-0.5 max-w-fit"><House /></a>
+	<button
+		onclick={() => {
+			goto("/");
+		}}
+		class="-top-2.5 left-0.5 max-w-fit"><House /></button
+	>
 	<h1 class="text-4xl md:text-5xl">Tutorial</h1>
 	<h2 class="my-4 text-2xl md:text-3xl">Learn how to play Reds!</h2>
 	<main class="@container/main flex flex-row justify-center gap-10">
