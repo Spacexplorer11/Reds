@@ -4,3 +4,4 @@ static/images/* @spacexplorer11
 
 static/cards/* @ferboinkles
 src/lib/tutorial/* @ferboinkles
+src/routes/(game)/4-card/* @ferboinkles
