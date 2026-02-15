@@ -14,7 +14,7 @@
 	<div class="@container/left grid max-w-[50%] rotate-90 grid-cols-3 gap-1.25">
 		{@render cardGroup()}
 	</div>
-	<div class="@container/right ml-[50%] grid max-w-[50%] rotate-270 grid-cols-3 gap-1.25">
+	<div class="@container/right ml-[50%] grid max-w-[50%] -rotate-90 grid-cols-3 gap-1.25">
 		{@render cardGroup()}
 	</div>
 </div>
