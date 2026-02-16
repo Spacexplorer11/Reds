@@ -17,6 +17,6 @@
 		background-size: cover;
 		min-height: 100vh;
 		background-attachment: fixed;
-		overflow: hidden;
+		overflow-x: hidden;
 	}
 </style>
