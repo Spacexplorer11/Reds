@@ -10,7 +10,7 @@
 	<h1 class="text-3xl md:text-4xl lg:text-5xl">Tutorial</h1>
 	<h2 class="my-4 text-xl md:text-2xl lg:text-3xl">Learn how to play Reds!</h2>
 	<main class="@container/main">
-		<div class="@container/step mr-2 ml-2 flex flex-col items-center rounded-2xl bg-salmon p-10">
+		<div class="@container/step mx-2 flex flex-col items-center rounded-2xl bg-salmon p-10">
 			<h3 class="my-2 text-xl whitespace-pre-wrap md:text-2xl lg:text-3xl">{stepJSON.title}</h3>
 			<p class="my-4 text-lg whitespace-pre-wrap md:text-xl lg:text-2xl">
 				{stepJSON.content}
