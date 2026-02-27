@@ -9,6 +9,8 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	overscroll-behavior: none;
+	overflow-x: visible;
+
 }
 
 @theme {
