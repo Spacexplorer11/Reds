@@ -18,6 +18,5 @@
 		min-height: 100vh;
 		background-attachment: fixed;
 		overflow-x: hidden;
-		overflow-y: hidden;
 	}
 </style>
