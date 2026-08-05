@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="
+        http://www.sitemaps.org/schemas/sitemap/0.9
+        https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://reds-game.pages.dev/</loc>
+    </url>
+    <url>
+        <loc>https://reds-game.pages.dev/tutorial</loc>
+    </url>
+    <url>
+        <loc>https://reds-game.pages.dev/4-card</loc>
+    </url>
+    <url>
+        <loc>https://reds-game.pages.dev/6-card</loc>
+    </url>
+</urlset>
